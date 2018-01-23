@@ -3,9 +3,8 @@ function getFirstSelector(selector){
   //const elm = document.querySelectorAll('main')
   //const first = elm.getElementById('app')
   //var first = document.getElementById('ranked-list').querySelectorAll('ul.ranked-list li')
-  const main = document.getElementsByTagName('main')
-
-  return console.log(main)
+  //const main = document.getElementsByTagName('main')
+  return document.querySelector(selector)
   }
 
 
