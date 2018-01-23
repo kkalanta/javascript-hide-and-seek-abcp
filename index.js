@@ -30,13 +30,12 @@ function increaseRankBy(n){
 //}
 
 function deepestChild() {
-  var node = document.getElementById('grand-node')
-  var nextNode = node.children[0]
+  var getID = document.getElementById('grand-node')
+  var children = getID.children[0]
 
-  while (nextNode) {
-    node = nextNode
-    nextNode = node.children[0]
+  while (children) {
+    getID = children
+    children = getID.children[0]
   }
-
-  return node
+  return getID
 }
