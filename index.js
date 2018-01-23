@@ -3,15 +3,11 @@ function getFirstSelector(selector){
   return document.querySelector(selector)
   }
 
-
-
 // Second Function
 function nestedTarget(){
   return document.querySelector('#nested .target')
-  //var divs2 = divs.getElementByClassName('target');
 }
 
-//nestedTarget();
 
 // Third function
 function increaseRankBy(n){
