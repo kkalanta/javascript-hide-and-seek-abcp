@@ -7,9 +7,8 @@ function getFirstSelector(selector){
 
 // Second Function
 function nestedTarget(){
-  var divs = document.querySelector('#nested .target');
+  return document.querySelector('#nested .target')
   //var divs2 = divs.getElementByClassName('target');
-  return console.log(divs)
 }
 
 //nestedTarget();
