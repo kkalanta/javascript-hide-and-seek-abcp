@@ -17,7 +17,7 @@ function increaseRankBy(n){
     var child = rank[i].child
 
     for(let j = 0; j < child.length; j++){
-      child[j].innerHTML = parsInt(child[j].innerHTML) + n
+      child[j] = parsInt(child[j]) + n
     }
   }
 }
