@@ -10,19 +10,18 @@ function nestedTarget(){
 
 
 // Third function
-/*function increaseRankBy(n){
-  var rank = document.querySelectorAll('ul.ranked-list li')
+function increaseRankBy(n){
+  var rank = document.querySelectorAll('.ranked-list')
 
   for(let i = 0; i < rank.lenght; i++){
     rank[i].innerHTML = parsInt(rank[i].innerHTML) + n
 
-  return rank
     //for(let j = 0; j < child.lenght; j++){
       //child[j].innerHTML = parsInt(child[j].innerHTML) + n
     }
-}*/
+}
 
-function increaseRankBy(n) {
+/*function increaseRankBy(n) {
   var rank = document.querySelectorAll('.ranked-list')
 
   for (let i = 0, l = rank.length; i < l; i++) {
@@ -32,7 +31,7 @@ function increaseRankBy(n) {
       children[j].innerHTML = parseInt(children[j].innerHTML) + n
     }
   }
-}
+}*/
 
 // Fourth function
 //function deepestChild(){
