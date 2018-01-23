@@ -24,8 +24,9 @@ function nestedTarget(){
 
 function increaseRankBy(n) {
   var rank = document.querySelectorAll('.ranked-list')
+  var l = rank.length
 
-  for (let i = 0, i < rank.length; i++) {
+  for (let i = 0, i < l; i++) {
     let children = rank[i].children
 
     for (let j = 0, k = children.length; j < k; j++) {
