@@ -23,7 +23,7 @@ function nestedTarget(){
 }*/
 
 function increaseRankBy(n) {
-  var rank = document.querySelectorAll('ul.ranked-list li')
+  var rank = document.querySelectorAll('.ranked-list')
 
   for (let i = 0, l = rank.length; i < l; i++) {
     let children = rank[i].children
